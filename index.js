@@ -10,3 +10,5 @@ const allMessages = [
 const randomIndex = Math.floor(Math.random() * allMessages.length);
 
 const randomMessage = allMessages[randomIndex];
+
+console.log(randomMessage);
